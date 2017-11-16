@@ -1,0 +1,12 @@
+golang/go1.7.5.linux-amd64.tar.gz:
+  size: 84176916
+  object_id: a6a6e6b6-90a5-4509-453e-39467ccf41d5
+  sha: 7c6902ce8cd3b9963082d748c50df074e4896796
+mongo-tools/mongo-tools-r3.2.11.tar.gz:
+  size: 2712014
+  object_id: 95aae14a-4f15-4a01-6c3e-f6d631fd871a
+  sha: 5b718aa68399ec0e38a4dc6663eb2dc4bc9261bc
+mongo-tools/mongo-tools-r3.4.1.tar.gz:
+  size: 4700560
+  object_id: 980ba3be-3f22-4c30-61f6-156d01b65a45
+  sha: 49c1e853ea7558d52e920e77119b159c267561e0

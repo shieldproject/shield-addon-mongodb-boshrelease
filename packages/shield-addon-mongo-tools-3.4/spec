@@ -1,0 +1,5 @@
+---
+name: shield-addon-mongo-tools-3.4
+files:
+- golang/go1.7.5.linux-amd64.tar.gz
+- mongo-tools/mongo-tools-r3.4.1.tar.gz

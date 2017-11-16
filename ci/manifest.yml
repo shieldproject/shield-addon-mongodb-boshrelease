@@ -1,0 +1,44 @@
+name: shield-addon-mongodb-ci
+
+instance_groups:
+  - name: all
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs:
+      - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.2 }
+      - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.4 }
+
+  - name: mongo-tools-3.2
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.2 }]
+
+  - name: mongo-tools-3.4
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.4 }]
+
+update:
+  canaries: 0
+  max_in_flight: 1
+  serial: true
+  canary_watch_time: 1000-120000
+  update_watch_time: 1000-120000
+
+stemcells:
+  - alias: default
+    os: ubuntu-trusty
+    version: latest
+
+releases:
+  - name: shield-addon-mongodb
+    version: latest
