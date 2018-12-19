@@ -1,0 +1,18 @@
+#!/bin/sh
+set -eux
+
+tar -xzf golang/go1.7.5.linux-amd64.tar.gz
+export GOROOT=$PWD/go
+export PATH=$GOROOT/bin:$PATH
+
+tar -xzf mongo-tools/mongo-tools-r3.6.9.tar.gz
+cd mongo-tools-r3.6.9
+mkdir bin
+export OS=linux
+. ./set_gopath.sh
+go build -o bin/mongodump    -tags "ssl" mongodump/main/mongodump.go
+go build -o bin/mongorestore -tags "ssl" mongorestore/main/mongorestore.go
+
+mkdir -p ${BOSH_INSTALL_TARGET}/bin
+cp bin/mongodump    ${BOSH_INSTALL_TARGET}/bin
+cp bin/mongorestore ${BOSH_INSTALL_TARGET}/bin

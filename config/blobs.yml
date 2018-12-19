@@ -10,3 +10,7 @@ mongo-tools/mongo-tools-r3.4.1.tar.gz:
   size: 4700560
   object_id: 980ba3be-3f22-4c30-61f6-156d01b65a45
   sha: 49c1e853ea7558d52e920e77119b159c267561e0
+mongo-tools/mongo-tools-r3.6.9.tar.gz:
+  size: 4723117
+  object_id: d4969c40-f5a9-4791-650e-ab93bfd503d7
+  sha: ce811664a44494ba395a6e5b0462be2302a6fc75
