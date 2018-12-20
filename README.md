@@ -10,6 +10,7 @@ The following versions are currently available:
 
  - **3.2.11** via `shield-addon-mongo-tools-3.2`
  - **3.4.1**  via `shield-addon-mongo-tools-3.4`
+ - **3.6.9**  via `shield-addon-mongo-tools-3.6`
 
 All versions are compiled against golang 1.7.5.
 
