@@ -14,3 +14,11 @@ mongo-tools/mongo-tools-r3.6.9.tar.gz:
   size: 4723117
   object_id: d4969c40-f5a9-4791-650e-ab93bfd503d7
   sha: ce811664a44494ba395a6e5b0462be2302a6fc75
+mongo-tools/mongo-tools-r4.0.13.tar.gz:
+  size: 12088488
+  object_id: 24712676-9a70-4dd9-512e-4c252dfd473c
+  sha: f5a99b6de47699e0ae918f2a3452882099f7ca95
+mongo-tools/mongo-tools-r4.2.1.tar.gz:
+  size: 13137194
+  object_id: 3f2d4747-d38e-4a98-59c6-704197b19440
+  sha: 2d2c3bfef81773e6a0f7806de3c4164b602ec64a

@@ -11,6 +11,8 @@ instance_groups:
       - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.2 }
       - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.4 }
       - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.6 }
+      - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-4.0 }
+      - {release: shield-addon-mongodb, name: shield-addon-mongo-tools-4.2 }
 
   - name: mongo-tools-3.2
     instances: 1
@@ -35,6 +37,22 @@ instance_groups:
     stemcell: default
     networks: [{name: default}]
     jobs: [{ release: shield-addon-mongodb, name: shield-addon-mongo-tools-3.6 }]
+
+  - name: mongo-tools-4.0
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mongodb, name: shield-addon-mongo-tools-4.0 }]
+
+  - name: mongo-tools-4.2
+    instances: 1
+    azs: [z1]
+    vm_type: default
+    stemcell: default
+    networks: [{name: default}]
+    jobs: [{ release: shield-addon-mongodb, name: shield-addon-mongo-tools-4.2 }]
 
 update:
   canaries: 0

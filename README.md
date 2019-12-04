@@ -11,6 +11,8 @@ The following versions are currently available:
  - **3.2.11** via `shield-addon-mongo-tools-3.2`
  - **3.4.1**  via `shield-addon-mongo-tools-3.4`
  - **3.6.9**  via `shield-addon-mongo-tools-3.6`
+ - **4.0.13** via `shield-addon-mongo-tools-4.0`
+ - **4.2.1**  via `shield-addon-mongo-tools-4.2`
 
 All versions are compiled against golang 1.7.5.
 
@@ -33,7 +35,7 @@ instance_groups:
   - name: whatever
     jobs:
       # ...
-      - name:    shield-addon-mongo-tools-3.4
+      - name:    shield-addon-mongo-tools-4.2
         release: shield-addon-mongodb
 ```
 

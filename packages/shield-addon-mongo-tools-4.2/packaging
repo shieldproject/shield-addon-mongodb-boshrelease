@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eux
+
+tar -xzf mongo-tools/mongo-tools-r4.2.1.tar.gz
+cd mongo-tools-r4.2.1
+
+mkdir -p ${BOSH_INSTALL_TARGET}/bin
+cp bin/mongodump    ${BOSH_INSTALL_TARGET}/bin
+cp bin/mongorestore ${BOSH_INSTALL_TARGET}/bin

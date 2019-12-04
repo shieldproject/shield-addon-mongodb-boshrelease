@@ -1,0 +1,4 @@
+---
+name: shield-addon-mongo-tools-4.2
+files:
+- mongo-tools/mongo-tools-r4.2.1.tar.gz
