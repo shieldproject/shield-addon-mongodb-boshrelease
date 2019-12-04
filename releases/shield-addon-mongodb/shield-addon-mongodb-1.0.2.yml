@@ -1,0 +1,65 @@
+name: shield-addon-mongodb
+version: 1.0.2
+commit_hash: ae1b36a
+uncommitted_changes: false
+jobs:
+- name: shield-addon-mongo-tools-3.2
+  version: b2f90a6866c11e16415ae46f63c4a6425511aeabd8c5406e265aab7d789f1792
+  fingerprint: b2f90a6866c11e16415ae46f63c4a6425511aeabd8c5406e265aab7d789f1792
+  sha1: sha256:ad5f744cb1c65d7e682ed82339bc4258215f235fc77e98dfb8afc588359a6afe
+  packages:
+  - shield-addon-mongo-tools-3.2
+- name: shield-addon-mongo-tools-3.4
+  version: e8150f85b1f984e93aaf7666469c347ca81323ee762458975215a386a66f4b24
+  fingerprint: e8150f85b1f984e93aaf7666469c347ca81323ee762458975215a386a66f4b24
+  sha1: sha256:bdcd30848f628bc660c63bde883608cdb4163b4d9b3ffb7d3239d8981c1ed60e
+  packages:
+  - shield-addon-mongo-tools-3.4
+- name: shield-addon-mongo-tools-3.6
+  version: a76650427957480325c19fcd2751fcb13721a3d0c19b2358099a22a48034ade2
+  fingerprint: a76650427957480325c19fcd2751fcb13721a3d0c19b2358099a22a48034ade2
+  sha1: sha256:8b024e836eacb9766c1250705337193fc3d9e568af87d0df556748ee93df4320
+  packages:
+  - shield-addon-mongo-tools-3.6
+- name: shield-addon-mongo-tools-4.0
+  version: 9d7294cfe42fbca2850a137d8239422b40be30d6aefeaa3e74c5fc1b4c913dd5
+  fingerprint: 9d7294cfe42fbca2850a137d8239422b40be30d6aefeaa3e74c5fc1b4c913dd5
+  sha1: sha256:c41e20c14596217376aee46bf5b4285a107fd34e4de34de52c1702da9e19d035
+  packages:
+  - shield-addon-mongo-tools-4.0
+- name: shield-addon-mongo-tools-4.2
+  version: 0c2f74935700b6f85cac58f1a828f5da399e276245b3817aa63511da5be28091
+  fingerprint: 0c2f74935700b6f85cac58f1a828f5da399e276245b3817aa63511da5be28091
+  sha1: sha256:656d46ea55d6f7ae74ed83da6e64fd7edb4bd346b85815ce5804899333ccf296
+  packages:
+  - shield-addon-mongo-tools-4.2
+packages:
+- name: shield-addon-mongo-tools-3.2
+  version: 878ca9edb337dc377220799d4f08f6fc4884c07a97fdf48a882e86b82ec77322
+  fingerprint: 878ca9edb337dc377220799d4f08f6fc4884c07a97fdf48a882e86b82ec77322
+  sha1: sha256:315386a7dbee3958edfc0b10c606ee201623dc990140c445e8c88ac78df91120
+  dependencies: []
+- name: shield-addon-mongo-tools-3.4
+  version: 9cf50d1e0d08bae4880c8bb3db3df8b64a87c6a030fdb69b2712d9e05e16460c
+  fingerprint: 9cf50d1e0d08bae4880c8bb3db3df8b64a87c6a030fdb69b2712d9e05e16460c
+  sha1: sha256:eb6e101c29f3daefb7c48bd2f032fdd47dc9c96369bdd761eca30f5e4ff06d4e
+  dependencies: []
+- name: shield-addon-mongo-tools-3.6
+  version: 3998f2ca81987f4e735ee20242115db9806d554ee70e5623f1cb6e7b596de81f
+  fingerprint: 3998f2ca81987f4e735ee20242115db9806d554ee70e5623f1cb6e7b596de81f
+  sha1: sha256:1e89e93be9a761b98e7c8e80585e864509a62b82431323b9941da0cd2d8828dc
+  dependencies: []
+- name: shield-addon-mongo-tools-4.0
+  version: b2c16b65aa27ac6fc74b2b202208a7d01099831993ec0dae693dd4e9fcd7501e
+  fingerprint: b2c16b65aa27ac6fc74b2b202208a7d01099831993ec0dae693dd4e9fcd7501e
+  sha1: sha256:e89ccbf7ecbe0edb4f6a59a6d2da9f44d8596db1e5bc27de5ecb1255beefdc27
+  dependencies: []
+- name: shield-addon-mongo-tools-4.2
+  version: a76e68fa4e370f9a66b75ca1a027858c136f93a8844adcc3dc625337cae56b6e
+  fingerprint: a76e68fa4e370f9a66b75ca1a027858c136f93a8844adcc3dc625337cae56b6e
+  sha1: sha256:b54343d1b31960646144b707107c4bfb7c2fa3d7d52763ae02c03cea57b4e4fe
+  dependencies: []
+license:
+  version: bbb5d860163ee53d5e97eadd99fecce8fcaabc50d2c1b81e9459aff6086e620a
+  fingerprint: bbb5d860163ee53d5e97eadd99fecce8fcaabc50d2c1b81e9459aff6086e620a
+  sha1: sha256:baf594bd7abdc9d0d0f400952d418125e6b699b7f1f00cac36b8251d17ee56ed
